@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Home</h1>
+</div>
+<div *ngFor="let item of backend.data">
+  <span *ngIf="item">
+    {{item.dataNumber}}
+    {{item.dataObject}}
+    {{item.dataString}}
+    </span>
+</div>
+

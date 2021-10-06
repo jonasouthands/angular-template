@@ -1,0 +1,8 @@
+// Skewx
+
+@mixin transform($args...){
+	-webkit-transform: $args;
+	   -moz-transform: $args;
+	     -o-transform: $args;
+			transform: $args;
+}

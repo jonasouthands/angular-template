@@ -1,0 +1,8 @@
+// Scale
+
+@mixin scale($args...){
+	-webkit-transform: scale($args);
+	   -moz-transform: scale($args);
+	     -o-transform: scale($args);
+			transform: scale($args);
+}
