@@ -1,5 +1,7 @@
 export interface Data {
   dataString: string;
-  dataObject: {};
+  nested: {
+    nestedString: string
+  };
   dataNumber: number;
 }
